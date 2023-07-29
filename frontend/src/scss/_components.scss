@@ -1,0 +1,14 @@
+// Panel
+.panel {
+    background-color: white;
+    border-radius: 15px;
+}
+
+// Alert
+.alert {
+    background-color: #666;
+    color: white;
+    padding: 1rem;
+    border-radius: 12px;
+}
+.alert.alert-danger { background-color: indianred; }

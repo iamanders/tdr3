@@ -1,0 +1,17 @@
+:root {
+    --font: Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    // --font: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+
+    --color-primary: #2c3b44;
+    --color-secondary: #a45b6c;
+    --color-light-green: #a8c892;
+    --color-danger: brown;
+
+    --color-text: #444;
+    --color-a: darkslategray;
+    --color-a-hover: cadetblue;
+}
+
+@import "_base";
+@import "_components";
+@import "_form";

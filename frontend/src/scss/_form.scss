@@ -1,0 +1,84 @@
+// Buttons
+.button,
+button.button,
+a.button {
+    background-color: var(--color-secondary);
+    border: 1px solid transparent;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+
+    box-shadow: 0 2px 5px -3px rgba(0, 0, 0, .5);
+}
+
+.button:hover {
+    opacity: .8;
+}
+
+.button:active {
+    transform: translateY(1px);
+}
+
+.button.button-outline {
+    border: 1px solid var(--color-primary);
+    background-color: transparent;
+    color: var(--color-primary);
+}
+
+.button.button-secondary {
+    background-color: var(--color-primary);
+}
+.button.button-danger {
+    background-color: var(--color-danger);
+}
+
+.grouped-buttons .button {
+    border-radius: 0;
+    margin-right: 2px;
+}
+.grouped-buttons .button:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.grouped-buttons .button:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+// Form
+.label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: .33rem;
+    font-size: .9rem;
+}
+
+input:not([type="checkbox"], [type="submit"], [type="button"]),
+textarea {
+    border: 1px solid #2c3e5099;
+    border-radius: 6px;
+    padding: .5rem;
+    font-size: 1rem;
+    width: 100%;
+}
+
+input:focus,
+textarea:focus {
+    border: 1px solid var(--color-primary);
+    outline: 3px solid #00000033;
+}
+
+.checkbox-wrapper input {
+    cursor: pointer;
+}
+
+.checkbox-wrapper label {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: .25rem;
+}

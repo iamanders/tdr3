@@ -1,0 +1,26 @@
+body {
+    background: #e0e5e8;
+    background: linear-gradient(200deg, #c6cfd5 0%, #f9f9f9 90%);
+    background-repeat: no-repeat;
+}
+
+#app {
+    color: var(--color-text);
+}
+
+#app,
+.button,
+input,
+textarea,
+select {
+    font-family: var(--font);
+}
+
+a { color: var(--color-a); }
+a:hover { color: var(--color-a-hover); }
+
+.container {
+    max-width: 1280px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
